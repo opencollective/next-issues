@@ -1,0 +1,30 @@
+{
+  "name": "app-getInitialProps-silent-error",
+  "version": "1.0.0",
+  "description": "This app highlights a silent error in app getInitialProps leading to a broken navigation.",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": {
+    "name": "Open Collective, Inc.",
+    "email": "team@opencollective.com"
+  },
+  "contributors": [
+    "François Hodierne <francois@opencollective.com>"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "next": "^6.0.3",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "engines": {
+    "node": "9.x.x"
+  },
+  "files": [
+    "pages",
+    "package.json"
+  ]
+}
