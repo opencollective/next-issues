@@ -1,0 +1,33 @@
+{
+  "name": "style-css-404-now-production",
+  "version": "1.0.0",
+  "description": "Surface a bug with Next.js and Next CSS where style.css is 404 when using now.",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": {
+    "name": "Open Collective, Inc.",
+    "email": "team@opencollective.com"
+  },
+  "contributors": [
+    "François Hodierne <francois@opencollective.com>"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^0.2.0",
+    "next": "^6.0.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1"
+  },
+  "engines": {
+    "node": "9.x.x"
+  },
+  "files": [
+    "css",
+    "pages",
+    "next.config.js",
+    "package.json"
+  ]
+}
