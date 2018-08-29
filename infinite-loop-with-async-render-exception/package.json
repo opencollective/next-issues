@@ -1,0 +1,30 @@
+{
+  "name": "infinite-loop-with-async-render-exception",
+  "version": "1.0.0",
+  "description": "Surface a bug where a render exception is leading to an infinite loop.",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": {
+    "name": "Open Collective, Inc.",
+    "email": "team@opencollective.com"
+  },
+  "contributors": [
+    "François Hodierne <francois@opencollective.com>"
+  ],
+  "license": "ISC",
+  "dependencies": {
+    "next": "^6.1.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2"
+  },
+  "engines": {
+    "node": "10.x.x"
+  },
+  "files": [
+    "pages",
+    "package.json"
+  ]
+}
